@@ -97,7 +97,3 @@ $('#randomNumber').text(Random);
             loser();
           }
     })})
-
-
-//each gem has to have a value between 1-12
-    //adds the wins to the userTotal
