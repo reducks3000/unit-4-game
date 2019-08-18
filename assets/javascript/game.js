@@ -21,8 +21,8 @@ $('#randomNumber').text(Random);
     let wins= 0;
     let losses = 0;
     //  Decaring variables for tallies
-  $('#Wins').text(wins);
-  $('#Losses').text(losses);
+  $('#wins').text(wins);
+  $('#losses').text(losses);
   //resets the game
   function reset(){
         Random=Math.floor(Math.random()*101+19);
@@ -39,14 +39,14 @@ $('#randomNumber').text(Random);
   function yay(){
   alert("You won!");
     wins++; 
-    $('#Wins').text(wins);
+    $('#wins').text(wins);
     reset();
   }
   //addes the losses to the userTotal
   function loser(){
   alert ("You lose!");
     losses++;
-    $('#Losses').text(losses);
+    $('#losses').text(losses);
     reset()
   }
 

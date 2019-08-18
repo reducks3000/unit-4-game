@@ -1,1 +1,52 @@
 /* body tags */
+body{
+    background-image: url(../images/Cozy_Dome_Home.png);
+    background-size: cover;
+}
+div{
+    background-color: #ec74e6;
+    border: solid 2px #e609da;
+	margin: 10px;
+    width: 25%;
+    padding: 10px;
+
+}
+
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30px;
+}
+ol{
+	list-style: decimal inside; 
+}
+
+/* Specfic Elements*/
+
+div.header, div.food{
+	background-color: #ec74e6;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+/* Classes */
+.numbers, .stats{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.score{
+	width: 15%;
+	height: 60px;
+}
+.food{
+    width: 70%;
+	clear: both;
+}
+.foodImage {
+    opacity: 1;
+	height: 200px;
+	margin: 10px;
+}
